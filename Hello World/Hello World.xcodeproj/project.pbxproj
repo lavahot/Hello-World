@@ -50,6 +50,7 @@
 		CEB5019613ECFFC900BB0068 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEB5019813ECFFC900BB0068 /* Hello_WorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello_WorldTests.h; sourceTree = "<group>"; };
 		CEB5019A13ECFFC900BB0068 /* Hello_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_WorldTests.m; sourceTree = "<group>"; };
+		CEB501A413ED13F800BB0068 /* Hello World.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Hello World.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +116,7 @@
 		CEB5017513ECFFC800BB0068 /* Hello World */ = {
 			isa = PBXGroup;
 			children = (
+				CEB501A413ED13F800BB0068 /* Hello World.entitlements */,
 				CEB5018113ECFFC800BB0068 /* Hello_WorldAppDelegate.h */,
 				CEB5018213ECFFC800BB0068 /* Hello_WorldAppDelegate.m */,
 				CEB5018413ECFFC900BB0068 /* MainMenu.xib */,
@@ -366,6 +368,7 @@
 		CEB5019F13ECFFC900BB0068 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hello World/Hello World-Prefix.pch";
 				INFOPLIST_FILE = "Hello World/Hello World-Info.plist";
@@ -377,6 +380,7 @@
 		CEB501A013ECFFC900BB0068 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hello World/Hello World-Prefix.pch";
 				INFOPLIST_FILE = "Hello World/Hello World-Info.plist";
